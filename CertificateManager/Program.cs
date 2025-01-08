@@ -9,9 +9,14 @@ namespace CertificateManager
         static void Main(string[] args)
         {
             /*
+              PKCS#8 형식
               -----BEGIN PRIVATE KEY-----
+              Base64 Data
               -----END PRIVATE KEY-----
+
+              RSA 형식
               -----BEGIN RSA PRIVATE KEY-----
+              Base64 Data
               -----END RSA PRIVATE KEY-----
             */
 
